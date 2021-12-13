@@ -164,6 +164,23 @@
 
 .quadrato-8 img:hover {
     filter:sepia(1);
-    border-radius: 10px;
-    
+    border-radius: 20px;
+}
+
+/*esercizio-9*/
+
+.quadrato-9 img {
+    margin-top: 40px;
+    margin-left: 20px;
+    max-width: 500px;
+    max-height: 300px;
+    transition: all 2s ease 0s;
+    filter:sepia(0.5)
+}
+
+.quadrato-9 img:hover {
+    border-radius: 20px;
+    max-width: 300px;
+    max-height: 200px;
+    filter: none;
 }
