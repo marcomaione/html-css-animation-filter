@@ -203,7 +203,7 @@
     height: 100px;
     margin-top: 25px;
     margin-left: 20px;
-    transition: all 2s ease-in 0s;
+    transition: all 2s linear 0s;
 
 }
 
@@ -255,7 +255,7 @@
 }
 
 .rettangolo {
-    position:absolute;
+    position: relative;
     width: 300px;
     height: 150px;
     border: solid 2px blue;
@@ -264,11 +264,39 @@
 }
 
 .ret-2 {
-    background-color: rgba(129, 133, 133, 0.226);
     position: absolute;
+    background-color: rgba(129, 133, 133, 0.226);
     width: 50px;
     height: 30px;
     border: solid 1px black;
-    margin-left: 30px;
-    margin-top: -10px;
+    animation:muoviti 10s ease;
+}
+
+@keyframes muoviti {
+    
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    20% {
+        top: 0;
+        left: calc(100% -50px);
+    }
+
+    40% {
+        top: calc(100% -50px);
+        left: calc(100% -50px);
+
+    }
+
+    60% {
+        top: calc(100% -50px);
+        left: 0;
+    }
+
+    80% {
+        top: 0;
+        left: 0;
+    }
 }
