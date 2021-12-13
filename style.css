@@ -1,0 +1,110 @@
+
+/*generali*/
+
+.title {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.conteiner {
+    position: relative;
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    background-color: rgba(129, 133, 133, 0.226);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+/*quadrato-1*/
+
+.quadrato {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: solid 1px red;
+    margin-top: 25px;
+    margin-left: 20px;
+    transition: all 2s ease 0s;
+}
+
+.quadrato:hover {
+    background-color: red;
+
+}
+
+/*quadrato-2*/
+.quadrato-2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 25px;
+    margin-left: 20px;
+    transition: all 2s ease 0s;
+}
+
+.quadrato-2:active {
+    width: 95%;
+}
+
+/*quadrato-3*/
+
+.quadrato-3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 25px;
+    margin-left: 20px;
+    transition: all 2s ease 0s;
+}
+
+.quadrato-3:hover {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+/*quadrato-4*/
+
+.quadrato-4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 25px;
+    margin-left: 20px;
+    transition: all 2s ease 0s;
+}
+
+.quadrato-4:hover {
+    opacity: 0;
+    background-color: rgba(129, 133, 133, 0.226);
+}
+
+/*quadrato-5*/
+.quadrato-5 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 30px;
+    transition: all 2s ease 0s;
+}
+
+.quadrato-5:hover {
+    width: 75px;
+    height: 75px;
+}
+
+.quadrato-5:active {
+    width: 25px;
+    height: 25px;
+}
