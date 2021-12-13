@@ -34,6 +34,16 @@
     border-radius: 5px;
     margin-top: 50px;
 }
+
+.conteiner-3 {
+    position: relative;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    background-color: rgba(129, 133, 133, 0.226);
+    border-radius: 5px;
+    margin-top: 50px;
+}
 /*quadrato-1*/
 
 .quadrato {
@@ -183,4 +193,82 @@
     max-width: 300px;
     max-height: 200px;
     filter: none;
+}
+
+/*esercizio-10*/
+
+.quadrato-10 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+    transition: all 2s ease-in 0s;
+
+}
+
+.quadrato-10 i {
+    font-size: 50px;
+    padding: 30px 20px;
+    animation: spinner 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/*esercizio-11*/
+
+.quadrato-11 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+    transition: all 2s ease-in 0s;
+
+}
+
+.quadrato-11 i {
+    font-size: 50px;
+    padding: 30px 20px;
+}
+
+.spinner-2:hover {
+    animation: spinner-2 2s;
+
+}
+
+@keyframes spinner-2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(300deg);
+    }
+}
+
+.rettangolo {
+    position:absolute;
+    width: 300px;
+    height: 150px;
+    border: solid 2px blue;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.ret-2 {
+    background-color: rgba(129, 133, 133, 0.226);
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border: solid 1px black;
+    margin-left: 30px;
+    margin-top: -10px;
 }
