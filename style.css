@@ -36,7 +36,6 @@
 }
 
 .conteiner-3 {
-    position: relative;
     width: 90%;
     height: 200px;
     margin: auto;
@@ -210,7 +209,7 @@
 .quadrato-10 i {
     font-size: 50px;
     padding: 30px 20px;
-    animation: spinner 1s;
+    animation: spinner 1s linear;
     animation-iteration-count: infinite;
 }
 
@@ -273,7 +272,7 @@
 }
 
 @keyframes muoviti {
-    
+
     0% {
         left: 0;
         top: 0;
